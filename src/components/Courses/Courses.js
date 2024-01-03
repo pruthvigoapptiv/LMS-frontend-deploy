@@ -25,9 +25,7 @@ const Courses = () => {
     // if (storedToken) {
     //   setToken(storedToken);
     // }
-    if (!localStorage.getItem("authToken")) {
-      navigate("/");
-    }
+  
 
     // Fetch course data from the API
     fetchCourses();

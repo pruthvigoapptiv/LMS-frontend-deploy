@@ -34,9 +34,7 @@ const StudentView = () => {
   const { studentId } = useParams();
   const navigate = useNavigate();
   useEffect(() => {
-    if (!localStorage.getItem("authToken")) {
-      navigate("/");
-    }
+   
     fetchDetails();
 
     fetchAttendanceData();

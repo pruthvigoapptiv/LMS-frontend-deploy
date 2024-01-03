@@ -23,9 +23,7 @@ const BatchList = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        if (!localStorage.getItem("authToken")) {
-          navigate("/");
-        }
+    
         const response = await fetch(
           "http://localhost:8000/api/v1/batch/getallbatches"
         );

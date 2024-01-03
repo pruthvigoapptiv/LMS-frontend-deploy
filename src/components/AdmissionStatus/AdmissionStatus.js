@@ -28,9 +28,7 @@ useEffect(() => {
   const navigate = useNavigate();
   useEffect(() => {
   
-    if (!localStorage.getItem("authToken")) {
-      navigate("/");
-    }
+  
     const fetchData = async () => {
       try {
         const response = await fetch(

@@ -6,9 +6,7 @@ import { useNavigate } from "react-router-dom";
 const OmrChecking = () => {
   const navigate = useNavigate();
   useEffect(() => {
-    if (!localStorage.getItem("authToken")) {
-      navigate("/");
-    }
+  
   }, []);
   return (
     <>

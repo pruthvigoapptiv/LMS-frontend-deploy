@@ -21,9 +21,7 @@ const Student = () => {
   const [currApplicationId, setCurrApplicationId] = useState(null);
 
   useEffect(() => {
-    if (!localStorage.getItem("authToken")) {
-      navigate("/");
-    }
+
     fetchData();
   }, []);
 

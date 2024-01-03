@@ -21,9 +21,7 @@ const TeacherRegistration = () => {
     gender: "",
   });
   useEffect(() => {
-    if (!localStorage.getItem("authToken")) {
-      navigate("/");
-    }
+  
   }, []);
   const handleChange = (e) => {
     const { name, value } = e.target;

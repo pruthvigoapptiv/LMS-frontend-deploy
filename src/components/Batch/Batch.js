@@ -24,9 +24,7 @@ const Batch = () => {
   const [token, setToken] = useState("");
   const navigate = useNavigate();
   useEffect(() => {
-    if (!localStorage.getItem("authToken")) {
-      navigate("/");
-    }
+   
     const storedToken = localStorage.getItem("authToken");
     if (storedToken) {
       setToken(storedToken);

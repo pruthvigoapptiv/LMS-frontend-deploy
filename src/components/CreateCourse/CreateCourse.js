@@ -21,9 +21,7 @@ const CreateCourse = () => {
   const [token, setToken] = useState();
   const navigate = useNavigate();
   useEffect(() => {
-    if (!localStorage.getItem("authToken")) {
-      navigate("/");
-    }
+  
     const storesToken = localStorage.getItem("authToken");
     if (storesToken) {
       setToken(storesToken);

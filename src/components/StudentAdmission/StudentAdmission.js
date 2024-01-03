@@ -97,9 +97,7 @@ const StudentAdmission = () => {
 
   const [courseOptions, setCourseOptions] = useState([]);
   useEffect(() => {
-    if (!localStorage.getItem("authToken")) {
-      navigate("/");
-    }
+  
     const fetchCourses = async () => {
       try {
         const response = await fetch(
