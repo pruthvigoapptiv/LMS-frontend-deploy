@@ -1,0 +1,18 @@
+
+ .dashboardIconBox{
+display: flex;
+/* justify-content: space-between; */
+padding: 1rem;
+color: white;
+align-items: center;
+ }
+ .dashboardIconBox:hover{
+    background-color: rgb(218, 88, 18);
+ }
+ .iconClass , .linkIcon{
+    margin: 0.1rem;
+ }
+.linkIcon, .linkIcon:hover{
+    color: white;
+}
+

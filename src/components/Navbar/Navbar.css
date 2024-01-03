@@ -1,0 +1,25 @@
+/* App.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.logoImg{
+  width: 50px ;
+  height: 40px;
+}
+.navContainer{
+
+  display: flex;
+}
+.navChild{
+  margin: 0.7rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logoutContainer{
+  margin: 1rem;
+}

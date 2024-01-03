@@ -1,0 +1,45 @@
+.mainBox{
+display: flex;
+}
+.mainRegBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+.formBox{
+    margin-top: 2rem;
+    width: 60%;
+}
+.formBox h3{
+    text-align: center;
+}
+.emailName{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+}
+.nameInput, .emailInput, .selectInput, .mobileInput{
+
+  margin: 1.5rem;
+}
+.btnBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnBox Button{
+    margin: 1rem;
+}
+.dobDiv{
+    width: 80%;
+    /* border: 2px solid red; */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dobInput{
+}
